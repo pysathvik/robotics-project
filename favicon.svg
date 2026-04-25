@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="robotGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect x="20" y="25" width="60" height="50" rx="10" fill="url(#robotGrad)"/>
+  <rect x="30" y="10" width="40" height="20" rx="5" fill="url(#robotGrad)"/>
+  <circle cx="38" cy="45" r="8" fill="#fff"/>
+  <circle cx="62" cy="45" r="8" fill="#fff"/>
+  <circle cx="38" cy="45" r="4" fill="#1e293b"/>
+  <circle cx="62" cy="45" r="4" fill="#1e293b"/>
+  <rect x="40" y="58" width="20" height="8" rx="2" fill="#fff"/>
+  <rect x="10" y="40" width="12" height="6" rx="2" fill="url(#robotGrad)"/>
+  <rect x="78" y="40" width="12" height="6" rx="2" fill="url(#robotGrad)"/>
+  <rect x="30" y="75" width="15" height="15" rx="3" fill="url(#robotGrad)"/>
+  <rect x="55" y="75" width="15" height="15" rx="3" fill="url(#robotGrad)"/>
+</svg>
