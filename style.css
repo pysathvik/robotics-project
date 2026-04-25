@@ -137,8 +137,9 @@ body {
 
 .nav-logo {
   display: flex;
-  align-items: center;
-  gap: 0.75rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
   text-decoration: none;
   font-weight: 700;
   font-size: 1.5rem;
@@ -146,18 +147,23 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  position: relative;
 }
-.nav-logo .by {
-  position: absolute;
-  bottom: -10px;
-  left: 36px; /* adjust if needed */
-  font-size: 0.6rem;
-  color: #94a3b8;
-}
+
 .nav-logo img {
   width: 40px;
   height: 40px;
+  margin-right: 6px;
+}
+
+.nav-logo::first-line {
+  display: inline;
+}
+
+/* my name below */
+.nav-logo .by {
+  font-size: 0.6rem;
+  color: #94a3b8;
+  margin-left: 46px; /* aligns under text */
 }
 
 .nav-links {
