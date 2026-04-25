@@ -138,9 +138,16 @@ body {
 .nav-logo {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 0;
   text-decoration: none;
+}
+
+.logo-main {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logo-text {
   font-weight: 700;
   font-size: 1.5rem;
   background: var(--accent-gradient);
@@ -149,6 +156,16 @@ body {
   background-clip: text;
 }
 
+.logo-main img {
+  width: 40px;
+  height: 40px;
+}
+
+.by {
+  font-size: 0.65rem;
+  color: #94a3b8;
+  margin-left: 48px;
+}
 .nav-logo img {
   width: 40px;
   height: 40px;
