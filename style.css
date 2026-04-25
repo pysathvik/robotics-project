@@ -159,11 +159,14 @@ body {
   display: inline;
 }
 
-/* my name below */
 .nav-logo .by {
+  position: absolute;
+  bottom: -10px;
+  left: 36px;
   font-size: 0.6rem;
   color: #94a3b8;
-  margin-left: 46px; /* aligns under text */
+  -webkit-text-fill-color: initial;
+  background: none;
 }
 
 .nav-links {
