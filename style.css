@@ -148,21 +148,23 @@ body {
 .logo-text-wrap {
   display: flex;
   flex-direction: column;
-  line-height: 1.1;
+  line-height: 1;
+  align-items: flex-end;
 }
 
+.by {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+  font-weight: 500;
+  font-style: italic;
+}
 .logo-text {
   font-weight: 700;
   font-size: 1.5rem;
   background: var(--accent-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.by {
-  font-size: 0.6rem;
-  color: #94a3b8;
-  margin-top: -2px;
 }
 
 .logo-row img {
