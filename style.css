@@ -135,41 +135,6 @@ body {
   align-items: center;
 }
 
-.nav-logo {
-  text-decoration: none;
-}
-
-.logo-row {
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-}
-
-.logo-text-wrap {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.1;
-}
-
-.logo-text {
-  font-weight: 700;
-  font-size: 1.5rem;
-  background: var(--accent-gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.by {
-  font-size: 0.6rem;
-  color: #94a3b8;
-  margin-top: -2px;
-}
-
-.logo-row img {
-  width: 40px;
-  height: 40px;
-}
 .nav-logo img {
   width: 40px;
   height: 40px;
